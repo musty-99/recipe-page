@@ -17,11 +17,11 @@ body {
 section,
 p {
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 h1 {
   margin-bottom: 20px;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 h2 {
@@ -48,6 +48,23 @@ img {
   padding: 30px 30px;
 }
 
-.adjust-preparation {
+.adjust-preparation,ul {
   padding-left: 30px;
+ 
+}
+
+.nutrition-spacing {
+  display: block;
+  word-spacing: 15rem;
+}
+
+span {
+  color: #702f4a;
+  font-weight: bolder;
+  font-size: small;
+}
+
+fieldset p {
+  margin: 10px;
+  color: lightslategray;
 }
